@@ -105,7 +105,8 @@ export default function Intro() {
             hover:scale-110
             active:scale-105
             cursor-pointer
-            transition"
+            transition
+            border border-black/10"
           href="/CV-NguyenKeNam.pdf"
           download={true}
         >
@@ -118,7 +119,14 @@ export default function Intro() {
             gap-2 p-4
             rounded-full
             text-gray-700
-            text-[1.35rem]"
+            text-[1.35rem]
+            focus:scale-[1.15]
+            hover:scale-[1.15]
+            hover:text-gray-900
+            active:scale-105
+            cursor-pointer
+            transition
+            border border-black/10"
         >
           <BsLinkedin />
         </a>
@@ -128,7 +136,14 @@ export default function Intro() {
             gap-2 p-4
             rounded-full
             text-gray-700
-            text-[1.35rem]"
+            text-[1.35rem]
+            focus:scale-[1.15]
+            hover:scale-[1.15]
+            hover:text-gray-900
+            active:scale-105
+            cursor-pointer
+            transition
+            border border-black/10"
         >
           <FaGithubSquare />
         </a>
