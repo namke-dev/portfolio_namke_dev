@@ -9,8 +9,10 @@ npm run dev
 Install packages
 
 ```bash
-npm install react-icons
-npm install framer-motion
-npm install clsx
-npm install react-intersection-observer
+npm i react-icons
+npm i framer-motion
+npm i clsx
+npm i react-intersection-observer
+npm i react-vertical-timeline-component
+npm i --save-dev @types/react-vertical-timeline-component
 ```
