@@ -68,7 +68,7 @@ export default function Intro() {
         <p className="font-bold">Hello! I'm Ke Nam </p>
         <p className="font-bold">A full-stack developer</p>
 
-        <div className="!text-2xl sm:text-2xl !leading-[1.9] mt-[2rem]">
+        <div className="text-xl sm:text-2xl !leading-[1.9] mt-[2rem]">
           <p>
             I have built
             <span className="font-bold"> web apps </span>
@@ -133,8 +133,12 @@ export default function Intro() {
           Download CV
           <HiDownload className="group-hover:translate-y-1 opacity-60 transition" />
         </a>
-        <a
-          className="flex items-center
+        <div
+          className="flex flex-row
+          items-center justify-center gap-2 px-4 text-lg font-medium"
+        >
+          <a
+            className="flex items-center
           bg-white 
             gap-2 p-4
             rounded-full
@@ -150,13 +154,13 @@ export default function Intro() {
             dark:bg-white/10
             dark:text-white/70
             hover:dark:text-white/90"
-          href="https://www.linkedin.com/in/namke-dev/"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
-        <a
-          className="flex items-center
+            href="https://www.linkedin.com/in/namke-dev/"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            className="flex items-center
           bg-white 
             gap-2 p-4
             rounded-full
@@ -172,12 +176,22 @@ export default function Intro() {
             dark:bg-white/10
             dark:text-white/70
             hover:dark:text-white/90"
-          href="https://github.com/namke-dev"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+            href="https://github.com/namke-dev"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
+      <motion.div
+        className="flex flex-col sm:flex-row
+          items-center justify-center gap-2 px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
+      ></motion.div>
     </section>
   );
 }

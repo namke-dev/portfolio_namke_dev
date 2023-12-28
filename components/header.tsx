@@ -16,7 +16,7 @@ export default function Header() {
       <motion.div
         className="
           fixed top-0 left-1/2 
-          h-[3.5rem] w-full 
+          h-[4.5rem] w-full 
           rounded-none 
           border border-white border-opacity-40
           bg-white bg-opacity-80

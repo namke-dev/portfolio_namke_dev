@@ -22,7 +22,12 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About</SectionHeading>
-      <div className="text-left text-lg mb-3 text-gray-700 dark:text-white/80">
+      <div
+        className="text-left text-lg mb-3 sm:text-xl
+        text-gray-700  
+        dark:text-white/80
+        mx-6"
+      >
         <p>
           <span className="italic">My favorite part of programming</span> is the
           problem-solving aspect.
@@ -32,15 +37,17 @@ export default function About() {
           After graduating with a degree in{" "}
           <span className="font-medium">Software Engineering</span>, I decided
           to pursue my passion for building web application.
-          <span className="font-medium">full-stack web development</span>.{" "}
         </p>
         <br />
         <p>
           My core stack is{" "}
           <span className="font-medium">
-            .Net, ASP.Net Core, React, Next.js, and T-SQL Language
+            .Net, ASP.Net Core, React, Next.js, and T-SQL Language.
           </span>
-          . I am also familiar with C++, Java and Python. I am always looking to
+        </p>
+        <br />
+        <p>
+          I am also familiar with C++, Java and Python. I am always looking to
           learn new technologies.
         </p>
       </div>
