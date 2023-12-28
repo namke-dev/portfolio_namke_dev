@@ -20,7 +20,7 @@ export default function Intro() {
         scroll-mt-96"
     >
       <div className="flex items-center justify-center">
-        <div className="relative">
+        <div className="relative mb-5">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -61,15 +61,25 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-[5rem] mt-4 px-4 text-2xl font-medium !leading-[1.7] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <p className="font-bold">Hello! I'm Ke Nam </p>
+        <p className="font-bold">A full-stack developer</p>
+
+        <div className="!text-2xl sm:text-2xl !leading-[1.9] mt-[2rem]">
+          <p>
+            I have built
+            <span className="font-bold"> web apps </span>
+            over 2 years
+          </p>
+          <p>Get hands on frameworks and technologies</p>
+          <p>
+            <span className="font-bold">ASP .Net Core & ReactJS (NextJS)</span>{" "}
+            is my core skills.
+          </p>
+        </div>
       </motion.h1>
 
       <motion.div
@@ -140,6 +150,8 @@ export default function Intro() {
             dark:bg-white/10
             dark:text-white/70
             hover:dark:text-white/90"
+          href="https://www.linkedin.com/in/namke-dev/"
+          target="_blank"
         >
           <BsLinkedin />
         </a>
@@ -160,6 +172,8 @@ export default function Intro() {
             dark:bg-white/10
             dark:text-white/70
             hover:dark:text-white/90"
+          href="https://github.com/namke-dev"
+          target="_blank"
         >
           <FaGithubSquare />
         </a>

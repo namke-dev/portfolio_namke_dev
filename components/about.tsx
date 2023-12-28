@@ -22,24 +22,28 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About</SectionHeading>
-
-      <p className="mb-3 text-gray-700 dark:text-white/80">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+      <div className="text-left text-lg mb-3 text-gray-700 dark:text-white/80">
+        <p>
+          <span className="italic">My favorite part of programming</span> is the
+          problem-solving aspect.
+        </p>
+        <br />
+        <p>
+          After graduating with a degree in{" "}
+          <span className="font-medium">Software Engineering</span>, I decided
+          to pursue my passion for building web application.
+          <span className="font-medium">full-stack web development</span>.{" "}
+        </p>
+        <br />
+        <p>
+          My core stack is{" "}
+          <span className="font-medium">
+            .Net, ASP.Net Core, React, Next.js, and T-SQL Language
+          </span>
+          . I am also familiar with C++, Java and Python. I am always looking to
+          learn new technologies.
+        </p>
+      </div>
     </motion.section>
   );
 }
