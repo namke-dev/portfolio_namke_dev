@@ -32,7 +32,7 @@ export default function About() {
         <p>
           After graduating with a degree in{" "}
           <span className="font-medium">Software Engineering</span>, I decided
-          to pursue my passion for building web application 🕵️‍♂️.
+          to pursue my passion for building web application.
         </p>
         <br />
         <p>
@@ -43,7 +43,7 @@ export default function About() {
           I am also familiar with C++, Java and Python.
           <br />
           I'm always on the lookout to learn new technologies and embrace the
-          ever-evolving tech landscape! 🌐✨
+          ever-evolving tech landscape!
         </p>
       </div>
     </motion.section>
