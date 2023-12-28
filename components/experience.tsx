@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 
 export default function Experience() {
   return (
-    <motion.section>
+    <motion.section id="experience" className="scroll-mt-32">
       <SectionHeading>My Experience</SectionHeading>
     </motion.section>
   );

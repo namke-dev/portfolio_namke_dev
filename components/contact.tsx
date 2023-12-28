@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 
 export default function Contact() {
   return (
-    <motion.section>
+    <motion.section id="contact" className="scroll-mt-32">
       <SectionHeading>Contact</SectionHeading>
     </motion.section>
   );

@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 
 export default function Skills() {
   return (
-    <motion.section>
+    <motion.section id="skills" className="scroll-mt-32">
       <SectionHeading>My Skill</SectionHeading>
     </motion.section>
   );
