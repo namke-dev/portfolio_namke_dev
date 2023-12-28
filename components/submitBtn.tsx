@@ -15,7 +15,9 @@ export default function SubmitBtn() {
           hover:bg-gray-950
           cursor-pointer
           disabled:scale-100
-          disabled:opacity-65"
+          disabled:opacity-65
+          dark:bg-white
+          dark:bg-opacity-10"
       disabled={pending}
     >
       {pending ? (
