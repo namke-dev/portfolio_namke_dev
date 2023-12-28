@@ -44,6 +44,9 @@ export default function Project({
         relative
         hover:bg-gray-200
         group-even:pl-8
+        dark:bg-white/10
+        dark:hover:bg-white/20  
+        dark:text-white
         transition"
       >
         <div
@@ -55,7 +58,9 @@ export default function Project({
           group-even:ml-[18rem]"
         >
           <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="mt-2 leading-relaxed text-gray-700">{description}</p>
+          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+            {description}
+          </p>
           <ul className=" flex flex-wrap gap-2 mt-4 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
@@ -65,7 +70,8 @@ export default function Project({
                 text-[0.7rem]
                 uppercase
                 tracking-wider text-white
-                rounded-full"
+                rounded-full
+                dark:text-white/70"
                 key={index}
               >
                 {tag}
