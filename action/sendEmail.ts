@@ -21,9 +21,9 @@ export const sendEmail = async (formData: FormData) => {
       error: "Invalid client email|message",
     };
   }
-
+  let data;
   try {
-    await resend.emails.send({
+    data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "namke.dev@gmail.com",
       subject: "Message contact form",
@@ -33,9 +33,11 @@ export const sendEmail = async (formData: FormData) => {
         senderEmail: senderEmail as string
       }),
     });
-} catch (error: unknown) {
+  } catch (error: unknown) {
     return {
       error: getErrorMessage(error),
     };
   }
+  return {data}
+
 }
