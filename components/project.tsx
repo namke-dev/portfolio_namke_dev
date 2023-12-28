@@ -76,6 +76,7 @@ export default function Project({
             src={imageUrl}
             alt="Project I worked on"
             quality={95}
+            priority={true}
             className="
             absolute
             top-8
