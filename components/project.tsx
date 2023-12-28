@@ -19,7 +19,7 @@ export default function Project({
   });
 
   const scaleProgress = useTransform(scrollYProgress, [0.4, 1], [0.95, 1]);
-  const opacityProgress = useTransform(scrollYProgress, [0.8, 1], [0.5, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0.5, 1], [0.5, 1]);
   return (
     <motion.div
       ref={ref}
