@@ -3,8 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
-import { FaPaperPlane } from "react-icons/fa";
 import { sendEmail } from "@/action/sendEmail";
+import SubmitBtn from "./submitBtn";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -59,24 +59,7 @@ export default function Contact() {
           required
           maxLength={2000}
         />
-        <button
-          type="submit"
-          className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full
-          outline-none transition-all
-          focus:scale-110
-          hover:scale-110
-          active:scale-105
-          hover:bg-gray-950
-          cursor-pointer"
-        >
-          Submit{" "}
-          <FaPaperPlane
-            className="text-xs opacity-70 transition-all
-            group-hover:translate-x-1
-            group-hover:-translate-y-1
-          "
-          />
-        </button>
+        <SubmitBtn />
       </form>
     </motion.section>
   );
