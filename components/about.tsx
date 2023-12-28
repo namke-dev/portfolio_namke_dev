@@ -23,7 +23,7 @@ export default function About() {
     >
       <SectionHeading>About</SectionHeading>
 
-      <p className="mb-3 text-gray-700">
+      <p className="mb-3 text-gray-700 dark:text-white/80">
         After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
