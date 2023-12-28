@@ -27,7 +27,7 @@ export default function About() {
         mx-6
         !leading-[2.2rem]"
       >
-        <p>My favorite part of programming problem-solving aspect! 🚀</p>
+        <p>My favorite part of programming problem-solving aspect!</p>
         <br />
         <p>
           After graduating with a degree in{" "}
