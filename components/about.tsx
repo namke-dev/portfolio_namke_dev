@@ -2,9 +2,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
+import { useSectionInView } from "@/lib/hooks";
 export default function About() {
+  const { ref } = useSectionInView("About");
   return (
     <motion.section
+      ref={ref}
       className="
         max-w-[45rem]
         mb-28 sm:mb-40

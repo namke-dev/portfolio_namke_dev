@@ -18,8 +18,8 @@ export default function Project({
     offset: ["0 1", "1.33 1"],
   });
 
-  const scaleProgress = useTransform(scrollYProgress, [0.4, 1], [0.95, 1]);
-  const opacityProgress = useTransform(scrollYProgress, [0.5, 1], [0.5, 1]);
+  const scaleProgress = useTransform(scrollYProgress, [0.5, 1], [0.9, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0.3, 1], [0.6, 1]);
   return (
     <motion.div
       ref={ref}
@@ -40,7 +40,7 @@ export default function Project({
         rounded-lg
         overflow-hidden
         sm:pr-8
-        sm:h-[20rem]
+        h-[20rem]
         relative
         hover:bg-gray-200
         group-even:pl-8
