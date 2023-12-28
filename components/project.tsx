@@ -40,7 +40,8 @@ export default function Project({
         rounded-lg
         overflow-hidden
         sm:pr-8
-        h-[20rem]
+        sm:h-[20rem]
+        h-[35rem]
         relative
         hover:bg-gray-200
         group-even:pl-8
@@ -51,11 +52,14 @@ export default function Project({
       >
         <div
           className="
-          pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10
+          pt-4 pb-7 px-5 
+          sm:pl-10 sm:pr-2 sm:pt-10
           sm:max-w-[50%]
           flex flex-col
           h-full
-          group-even:ml-[18rem]"
+          sm:group-even:ml-[18rem]
+          sm:group-even:pl-8
+          "
         >
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
@@ -85,12 +89,15 @@ export default function Project({
             priority={true}
             className="
             absolute
-            top-8
-            -right-40
+            sm:top-8
+            top-[15rem]
+            sm:-right-40
+            -right-20
             w-[28.25rem]
             rounded-t-lg shadow-2xl
             group-even:right-[initial]
-            group-even:-left-40
+            sm:group-even:-left-40
+            group-even:-left-20
             transition
 
             group-hover:-translate-x-3
