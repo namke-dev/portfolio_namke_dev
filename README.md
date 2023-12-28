@@ -11,4 +11,6 @@ Install packages
 ```bash
 npm install react-icons
 npm install framer-motion
+npm install clsx
+npm install react-intersection-observer
 ```
