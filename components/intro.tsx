@@ -72,7 +72,7 @@ export default function Intro() {
         <p className="font-bold">Hello! I'm Ke Nam </p>
         <p className="font-bold">A full-stack developer</p>
 
-        <div className="text-lg sm:text-2xl !leading-[1.9] mt-[2rem]">
+        <div className="text-base sm:text-2xl !leading-[1.9] mt-[2rem]">
           <p>
             I have built
             <span className="font-bold"> web apps </span>
@@ -80,8 +80,8 @@ export default function Intro() {
           </p>
           <p>Get hands on frameworks and technologies</p>
           <p>
-            <span className="font-bold">ASP .Net Core & ReactJS (NextJS)</span>{" "}
-            is my core skills.
+            <span className="font-bold">.NET, ASP .Net Core & ReactJS</span> is
+            my core skills.
           </p>
         </div>
       </motion.h1>

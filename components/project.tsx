@@ -41,7 +41,7 @@ export default function Project({
         overflow-hidden
         sm:pr-8
         sm:h-[20rem]
-        h-[35rem]
+        h-[30rem]
         relative
         hover:bg-gray-200
         group-even:pl-8
