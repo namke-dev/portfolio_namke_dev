@@ -61,14 +61,18 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-[5rem] mt-4 px-4 text-2xl font-medium !leading-[1.7] sm:text-4xl"
+        className="mb-[5rem] mt-4 px-4 
+        font-medium 
+        !leading-[1.7] 
+        sm:text-4xl
+        text-2xl "
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <p className="font-bold">Hello! I'm Ke Nam </p>
         <p className="font-bold">A full-stack developer</p>
 
-        <div className="text-xl sm:text-2xl !leading-[1.9] mt-[2rem]">
+        <div className="text-lg sm:text-2xl !leading-[1.9] mt-[2rem]">
           <p>
             I have built
             <span className="font-bold"> web apps </span>
