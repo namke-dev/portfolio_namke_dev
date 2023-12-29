@@ -35,34 +35,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Software Engineering",
+    location: "FPT University, Ho chi Minh ciy, VN",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. Since 2 first years at University, I have do many project as assignment and group project. In the thirt year, I found a job as a back-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Back-end Developer",
+    location: "Ho chi Minh ciy, VN",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a back-end developer for 1.5 years in a job and half year in another job.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I decide to upskilled to the full stack. I join course and start new project with React and Angular, UX/UI. Now, I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Dev Assert",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
@@ -85,23 +85,25 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "ASP.NET Core",
+  ".NET Middleware",
+  "REST APIs",
+  "Docker Compose",
+  "Microservice",
+  "MS-SQL",
+  "My SQL",
+  "MongoDB",
+  "PostgreSQL",
+  "C#",
+  "Python",
+  "Java",
+  "C++",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Git",
 ] as const;
