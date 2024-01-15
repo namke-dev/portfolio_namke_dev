@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import devTubeImg from "@/public/dev-tube.png"
 import devStockImg from "@/public/dev-stock.png"
+import imgGeneratorImg from "@/public/img-generator.png"
 
 export const links = [
   {
@@ -62,28 +63,29 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Free ads youtube",
+    title: "Free ads YouTube",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Completed in late 2023 - a platform optimized for both mobile and PC use. Elevate the user experience on video-sharing platforms by eliminating all advertisements.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "framer-motion"],
     imageUrl: devTubeImg,
     url: "https://dev-tubes.vercel.app/search/Conan"
   },
   {
     title: "Stock market trends",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Developed in early 2034—an app for tracking stock prices over time, assessing company financial health, and monitoring stock market trends.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: devStockImg,
     url:"https://devstock.vercel.app/"
     
   },
   {
-    title: "Word Analytics",
+    title: "AI image-generator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: corpcommentImg,
+      "A public web app that generates images based on textual descriptions, powered by the OpenAI API.",
+    tags: ["React", "Next.js", "Tailwind", "OpenAI API"],
+    imageUrl: imgGeneratorImg,
+    url:"https://namke-image-generator.vercel.app/"
   },
 ] as const;
 
