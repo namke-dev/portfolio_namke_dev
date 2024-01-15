@@ -10,6 +10,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  url,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -61,7 +62,15 @@ export default function Project({
           sm:group-even:pl-8
           "
         >
-          <h3 className="text-2xl font-semibold">{title}</h3>
+          <h3 className="text-2xl font-semibold">
+            <a
+              href={url}
+              target="_blank"
+              className="cursor-pointer text-blue-800 underline dark:text-blue-300"
+            >
+              {title}
+            </a>
+          </h3>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
