@@ -66,7 +66,7 @@ export default function Intro() {
         !leading-[1.7] 
         sm:text-4xl
         text-2xl
-        text-gray-800 dark:text-white/95"
+        text-gray-800 dark:text-white/90"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
