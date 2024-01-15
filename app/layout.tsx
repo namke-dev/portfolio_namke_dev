@@ -27,13 +27,13 @@ export default function RootLayout({
       bg-gray-50 
       text-gray-950
         relative
-        pt-28 sm:pt-36
+        pt-28 sm:pt-32
         dark:bg-gray-900 
         dark:text-gray-50 
-        dark:text-opacity-90`}
+        dark:text-opacity-95`}
       >
         <div
-          className="bg-[#eae2fb] -z-10
+          className="bg-[#eae2fb92] -z-10
           absolute top-[-6rem] right-[11rem] 
             h-[31.25rem] w-[31.25rem]
             rounded-full blur-[10rem] 

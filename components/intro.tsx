@@ -34,7 +34,7 @@ export default function Intro() {
               quality={95}
               priority={true}
               className="h-24 w-24 rounded-full
-            border-[0.35rem] border-white
+            border-[0.35rem] border-white dark:border-gray-200
             shadow-xl"
             />
           </motion.div>
@@ -65,7 +65,8 @@ export default function Intro() {
         font-medium 
         !leading-[1.7] 
         sm:text-4xl
-        text-2xl "
+        text-2xl
+        text-gray-800 dark:text-white/95"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -74,14 +75,16 @@ export default function Intro() {
 
         <div className="text-base sm:text-2xl !leading-[1.9] mt-[2rem]">
           <p>
-            I have built
+            I have crafted
             <span className="font-bold"> web apps </span>
             over 2 years
           </p>
-          <p>Get hands on frameworks and technologies</p>
+          <p>Hands on various frameworks and technologies</p>
           <p>
-            <span className="font-bold">.NET, ASP .Net Core & ReactJS</span> is
-            my core skills.
+            <span className="font-bold">
+              .NET, ASP .Net Core, ReactJS, NextJS
+            </span>{" "}
+            is my core skills.
           </p>
         </div>
       </motion.h1>
