@@ -33,12 +33,12 @@ export default function RootLayout({
         dark:text-opacity-90`}
       >
         <div
-          className="bg-[#fbe2e3] -z-10
+          className="bg-[#eae2fb] -z-10
           absolute top-[-6rem] right-[11rem] 
             h-[31.25rem] w-[31.25rem]
             rounded-full blur-[10rem] 
             sm:w-[68.75rem]
-            dark:bg-[#946263]"
+            dark:bg-[#716294]"
         ></div>
         <div
           className="bg-[#dbd7fb] -z-10

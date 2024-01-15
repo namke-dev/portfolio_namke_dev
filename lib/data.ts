@@ -2,10 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
 import devTubeImg from "@/public/dev-tube.png"
 import devStockImg from "@/public/dev-stock.png"
-import imgGeneratorImg from "@/public/img-generator.png"
+import imgGeneratorImg from "@/public/img-generator-ai.png"
 
 export const links = [
   {
