@@ -81,7 +81,7 @@ export const projectsData = [
   {
     title: "AI image-generator",
     description:
-      "A public web app that generates images based on textual descriptions, powered by the OpenAI API.",
+      "Utilizing the OpenAI API to bring your textual descriptions to life through captivating images. This platform seamlessly transforms your words into visually stunning creations. ",
     tags: ["React", "Next.js", "Tailwind", "OpenAI API"],
     imageUrl: imgGeneratorImg,
     url:"https://namke-image-generator.vercel.app/"

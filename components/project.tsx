@@ -99,10 +99,11 @@ export default function Project({
             className="
             absolute
             sm:top-8
-            top-[15rem]
+            top-[17.5rem]
             sm:-right-40
             -right-20
             w-[28.25rem]
+            
             rounded-t-lg shadow-2xl
             group-even:right-[initial]
             sm:group-even:-left-40
