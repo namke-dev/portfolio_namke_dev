@@ -71,7 +71,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <p className="font-bold">Hello! I'm Ke Nam </p>
-        <p className="font-bold">A full-stack developer</p>
+        <p className="font-bold">A software developer</p>
 
         <div className="text-base sm:text-2xl !leading-[1.9] mt-[2rem]">
           <p>
