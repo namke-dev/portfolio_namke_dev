@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import devTubeImg from "@/public/dev-tube.png"
 import devStockImg from "@/public/dev-stock.png"
 import imgGeneratorImg from "@/public/img-generator-ai.png"
+import threeKatalog from "@/public/threeKatalog.png"
 
 export const links = [
   {
@@ -77,6 +78,14 @@ export const projectsData = [
     imageUrl: devStockImg,
     url:"https://devstock.vercel.app/"
     
+  },
+  {
+    title: "3D Catalog",
+    description:
+      "Virtual Reality Showroom - Where Style Meets Innovation! We offered services in presenting desinged funiture through our crafted catalog.",
+    tags: ["React", "Next.js", "Tailwind", "Three fiber"],
+    imageUrl: threeKatalog,
+    url:"https://d3catalog.vercel.app/home/"
   },
   {
     title: "AI image-generator",
