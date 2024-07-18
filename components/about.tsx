@@ -27,23 +27,24 @@ export default function About() {
         mx-6
         !leading-[2.2rem]"
       >
-        <p>My favorite part of programming problem-solving aspect!</p>
-        <br />
         <p>
-          After graduating with a degree in{" "}
-          <span className="font-medium">Software Engineering</span>, I decided
-          to pursue my passion for building web application.
+          It{"'"}s a{" "}
+          <span className="font-semibold text-indigo-800 dark:text-indigo-300">
+            priority
+          </span>{" "}
+          to provide the best support to my colleagues, aiming to make a
+          meaningful impact on our{" "}
+          <span className="font-semibold text-indigo-800 dark:text-indigo-300">
+            shared goals.
+          </span>
         </p>
         <br />
         <p>
-          My core stack is{" "}
-          <span className="font-medium">
-            .Net, ASP .Net Core, React, Next.js, and T-SQL Language.
+          I{"'"}m passionate about staying ahead of the curve by{" "}
+          <span className="font-semibold text-indigo-800 dark:text-indigo-300">
+            exploring new technologies
           </span>{" "}
-          I am also familiar with C++, Java and Python.
-          <br />
-          I'm always on the lookout to learn new technologies and embrace the
-          ever-evolving tech landscape!
+          and adapting to the ever-evolving tech landscape.
         </p>
       </div>
     </motion.section>

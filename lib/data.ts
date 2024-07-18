@@ -4,8 +4,6 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import devTubeImg from "@/public/dev-tube.png"
 import devStockImg from "@/public/dev-stock.png"
-import imgGeneratorImg from "@/public/img-generator-ai.png"
-import threeKatalog from "@/public/threeKatalog.png"
 
 export const links = [
   {
@@ -36,28 +34,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Software Engineering",
-    location: "FPT University, Ho chi Minh ciy, VN",
+    title: "FPT University",
+    location: "District 9 Hi-Tech Park, Ho chi Minh ciy, VN",
     description:
-      "I graduated after 4 years of studying. Since 2 first years at University, I have do many project as assignment and group project. In the thirt year, I found a job as a back-end developer.",
+      "Completed a Bachelor’s degree over a four-year period. During the third year, I secured a position as a Back-end Developer, gaining practical experience alongside my studies.",
     icon: React.createElement(LuGraduationCap),
     date: "2019-2023",
   },
   {
-    title: "Back-end Developer",
-    location: "Ho chi Minh ciy, VN",
+    title: "SWE AT RESO",
+    location: "District 9 Hi-Tech Park, Ho chi Minh ciy, VN",
     description:
-      "I worked as a back-end developer for 1.5 years in a job and half year in another job.",
+      "Worked as a Back-end Developer at Reso for one year, where I contributed to various backend projects and solutions.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "SWE AT FSOFT",
+    location: "District 9 Hi-Tech Park, Ho chi Minh ciy, VN",
+    description:
+      "Served as a Back-end Developer at FPT Software, focusing on the development and optimization of server-side applications almost a year-long tenure.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
+  },
+  {
+    title: "SWE AT NASHTECH",
+    location: "Etown 1, Tan Binh District, Ho chi Minh ciy, VN",
+    description:
+      "Joined NashTech Global in early 2024 as a Back-end Developer, working on advanced backend solutions and collaborating with diverse teams to enhance software performance and reliability.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
+  },
+  {
+    title: "PRESENT",
     location: "",
     description:
-      "I decide to upskilled to the full stack. I join course and start new project with React and Angular, UX/UI. Now, I'm open to full-time opportunities.",
+      "Currently focusing on expanding my expertise to full-stack development. I am enrolled in advanced courses and engaging in new projects using React and React Native to build comprehensive and innovative applications.",
     icon: React.createElement(FaReact),
-    date: "2023 - present",
+    date: "2023 - Present",
   },
 ] as const;
 
@@ -71,29 +85,13 @@ export const projectsData = [
     url: "https://dev-tubes.vercel.app/search/Conan"
   },
   {
-    title: "Stock market trends",
+    title: "Stock market prices",
     description:
-      "Developed in early 2034—an app for tracking stock prices over time, assessing company financial health, and monitoring stock market trends.",
+      "Developed in early 2024 — an app for tracking stock prices over time, assessing company financial health, and monitoring stock market trends.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: devStockImg,
     url:"https://devstock.vercel.app/"
     
-  },
-  {
-    title: "3D Catalog",
-    description:
-      "Virtual Reality Showroom - Where Style Meets Innovation! We offered services in presenting desinged funiture through our crafted catalog.",
-    tags: ["React", "Next.js", "Tailwind", "Three fiber"],
-    imageUrl: threeKatalog,
-    url:"https://d3catalog.vercel.app/home/"
-  },
-  {
-    title: "AI image-generator",
-    description:
-      "Utilizing the OpenAI API to bring your textual descriptions to life through captivating images. This platform seamlessly transforms your words into visually stunning creations. ",
-    tags: ["React", "Next.js", "Tailwind", "OpenAI API"],
-    imageUrl: imgGeneratorImg,
-    url:"https://namke-image-generator.vercel.app/"
   },
 ] as const;
 

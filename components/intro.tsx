@@ -66,23 +66,24 @@ export default function Intro() {
         !leading-[1.7] 
         sm:text-4xl
         text-2xl
-        text-gray-800 dark:text-white/90"
+        text-gray-800 dark:text-gray-200"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <p className="font-bold">Hello! I'm Ke Nam </p>
-        <p className="font-bold">A software developer</p>
+        <p className="font-bold">- Software Engineering</p>
 
         <div className="text-base sm:text-2xl !leading-[1.9] mt-[2rem]">
           <p>
-            I have crafted
-            <span className="font-bold"> web apps </span>
-            over 2 years
+            Experience in developing Web Apps{" "}
+            <span className="font-bold text-indigo-800 dark:text-indigo-300">
+              {" "}
+              over 2 years
+            </span>
           </p>
-          <p>Hands on various frameworks and technologies</p>
           <p>
-            <span className="font-bold">
-              .NET, ASP .Net Core, ReactJS, NextJS
+            <span className="font-bold text-indigo-800 dark:text-indigo-300">
+              .NET, ReactJS, NextJS, React Native
             </span>{" "}
             is my core skills.
           </p>
@@ -134,7 +135,7 @@ export default function Intro() {
             dark:bg-white/10
             dark:text-white/70
             hover:dark:text-white/90"
-          href="/CV-NguyenKeNam.pdf"
+          href="/NGUYEN_KE_NAM_SWE.pdf"
           download={true}
         >
           Download CV
