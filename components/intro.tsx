@@ -99,25 +99,6 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link
-          href={"#contact"}
-          className="
-              group
-              flex items-center
-              bg-gray-900 text-white
-              gap-2 px-7 py-3
-              rounded-full
-              outline-none
-              focus:scale-110
-              hover:scale-110
-              hover:bg-gray-950
-              active:scale-105
-              cursor-pointer
-              transition"
-        >
-          Contact me here
-          <BsArrowRight className="group-hover:translate-x-2 opacity-70 transition" />
-        </Link>
         <a
           className="
             group
@@ -189,6 +170,25 @@ export default function Intro() {
           >
             <FaGithubSquare />
           </a>
+          {/* <Link
+            href={"#contact"}
+            className="
+              group
+              flex items-center
+              bg-gray-900 text-white
+              gap-2 px-7 py-3
+              rounded-full
+              outline-none
+              focus:scale-110
+              hover:scale-110
+              hover:bg-gray-950
+              active:scale-105
+              cursor-pointer
+              transition"
+          >
+            Contact me here
+            <BsArrowRight className="group-hover:translate-x-2 opacity-70 transition" />
+          </Link> */}
         </div>
       </motion.div>
       <motion.div

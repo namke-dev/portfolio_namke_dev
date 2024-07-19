@@ -49,7 +49,9 @@ export default function Experience() {
               }}
               date={item.date}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
+              <h3 className="font-bold capitalize text-indigo-800 dark:text-indigo-300">
+                {item.title}
+              </h3>
               <p className="font-normal !mt-0 text-gray-500 dark:text-gray-400 !text-sm">
                 {item.location}
               </p>

@@ -40,11 +40,8 @@ export default function About() {
         </p>
         <br />
         <p>
-          I{"'"}m passionate about staying ahead of the curve by{" "}
-          <span className="font-semibold text-indigo-800 dark:text-indigo-300">
-            exploring new technologies
-          </span>{" "}
-          and adapting to the ever-evolving tech landscape.
+          I{"'"}m passionate about staying ahead of the curve by exploring new
+          technologies and adapting to the ever-evolving tech landscape.
         </p>
       </div>
     </motion.section>

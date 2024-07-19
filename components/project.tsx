@@ -66,7 +66,7 @@ export default function Project({
             <a
               href={url}
               target="_blank"
-              className="cursor-pointer text-blue-800 underline dark:text-blue-300"
+              className="cursor-pointer text-gray-800 underline dark:text-blue-300"
             >
               {title}
             </a>

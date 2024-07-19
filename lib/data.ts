@@ -15,16 +15,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,7 +35,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "FPT University",
-    location: "District 9 Hi-Tech Park, Ho chi Minh ciy, VN",
+    location: "District 9 Hi-Tech Park, Ho Chi Minh city, VN",
     description:
       "Completed a Bachelor’s degree over a four-year period. During the third year, I secured a position as a Back-end Developer, gaining practical experience alongside my studies.",
     icon: React.createElement(LuGraduationCap),
@@ -43,7 +43,7 @@ export const experiencesData = [
   },
   {
     title: "SWE AT RESO",
-    location: "District 9 Hi-Tech Park, Ho chi Minh ciy, VN",
+    location: "District 9 Hi-Tech Park, Ho Chi Minh city, Vietnam",
     description:
       "Worked as a Back-end Developer at Reso for one year, where I contributed to various backend projects and solutions.",
     icon: React.createElement(CgWorkAlt),
@@ -51,7 +51,7 @@ export const experiencesData = [
   },
   {
     title: "SWE AT FSOFT",
-    location: "District 9 Hi-Tech Park, Ho chi Minh ciy, VN",
+    location: "District 9 Hi-Tech Park, Ho Chi Minh city, Vietnam",
     description:
       "Served as a Back-end Developer at FPT Software, focusing on the development and optimization of server-side applications almost a year-long tenure.",
     icon: React.createElement(CgWorkAlt),
@@ -59,19 +59,19 @@ export const experiencesData = [
   },
   {
     title: "SWE AT NASHTECH",
-    location: "Etown 1, Tan Binh District, Ho chi Minh ciy, VN",
+    location: "Etown 1, Tan Binh District, Ho Chi Minh ciy, Vietnam",
     description:
       "Joined NashTech Global in early 2024 as a Back-end Developer, working on advanced backend solutions and collaborating with diverse teams to enhance software performance and reliability.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - Present",
   },
   {
-    title: "PRESENT",
+    title: "",
     location: "",
     description:
       "Currently focusing on expanding my expertise to full-stack development. I am enrolled in advanced courses and engaging in new projects using React and React Native to build comprehensive and innovative applications.",
     icon: React.createElement(FaReact),
-    date: "2023 - Present",
+    date: "",
   },
 ] as const;
 
