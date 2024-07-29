@@ -104,7 +104,7 @@ export default function Project({
             -right-20
             w-[28.25rem]
             
-            rounded-t-lg shadow-2xl
+            rounded-lg shadow-2xl
             group-even:right-[initial]
             sm:group-even:-left-40
             group-even:-left-20

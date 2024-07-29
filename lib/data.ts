@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import devTubeImg from "@/public/dev-tube.png"
 import devStockImg from "@/public/dev-stock.png"
+import katalogImg from "@/public/katalog.png"
+
 
 export const links = [
   {
@@ -77,20 +79,29 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Free ads YouTube",
+    title: "Free Ads YouTube",
     description:
       "Completed in late 2023 - a platform optimized for both mobile and PC use. Elevate the user experience on video-sharing platforms by eliminating all advertisements.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "framer-motion"],
+    tags: ["Next.js", "MongoDB", "Tailwind", "framer-motion"],
     imageUrl: devTubeImg,
-    url: "https://dev-tubes.vercel.app/search/Conan"
+    url: "https://www.devtube.online/"
   },
   {
-    title: "Stock market prices",
+    title: "Stock Market Index",
     description:
       "Developed in early 2024 — an app for tracking stock prices over time, assessing company financial health, and monitoring stock market trends.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: devStockImg,
-    url:"https://devstock.vercel.app/"
+    url:"https://www.devstock.online/"
+    
+  },
+  {
+    title: "Furniture 3D catalog",
+    description:
+      "An app act as a vertual show case for furnitures, allowing users to visualize pieces in various settings. However, as it is currently underdeveloped, many features are still in progress.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
+    imageUrl: katalogImg,
+    url:"https://www.katalog3d.com/"
     
   },
 ] as const;
